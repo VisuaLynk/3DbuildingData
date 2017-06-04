@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+}
+
+.column-left{ float: left; width: 60%; height: 100%}
+.column-right{ float: right; width: 40%; height: 100%}
+.column-center{ display: inline-block; width: 10%; height: 100%}
+
+svg path:hover {
+    fill: #19B5FE !important;
+    stroke: #1F3A93 !important;
+    stroke-width: 3;
+    stroke-linecap: round;
+    transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    cursor: move;
+}
+
+/*svg g {
+	stroke-width: 1;
+	fill: #C8F7C5 !important;
+    stroke: #2ECC71 !important;
+    content: g.title;
+}*/
+
+.svg_element {
+    height: 90%;
+    width: 90%;
+    stroke-linecap: round;
+    float:left;
+    cursor: move;
+
+}
+
+.VisualData_Name {
+    height: 80%;
+    width: 55%;
+    stroke-linecap: round;
+    float: right;
+}
+
+.VisualData_Graph {
+    height: 100%;
+    width: 100%;
+    stroke-linecap: round;
+}
+
+.svg_replaced-svg {
+	overflow: visible;
+	height: 100%;
+	width: 100%;
+	stroke-width: 1;
+	stroke-linecap: round;
+    cursor: move;
+}

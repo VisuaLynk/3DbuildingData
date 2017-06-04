@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+	<link rel="stylesheet" href="css/visualynk.min.css">
+	<script src="js/analytics.js"></script>
+	</head>
+	   <body class="vslynk-body">
+			<section class="vslynk-section-main">
+			<div class="vslynk-section-header" style= "line-height: 30px;">
+				<form id="filter-form" >
+					<input id="constraint" type="text" style=" width: 150px; height: 21px;
+					border: 1px solid; border-color:#66BAF3; border-radius: 8px; font: 12px Raleway" placeholder=" VisualData..."
+						value="">
+					<input id="filter-button" type="button" value="Search"
+					style="height:25px; border: 1px solid; border-color:#66BAF3; border-radius: 8px;
+					background-color: Transparent; font: 12px 'Raleway'; color:#6C7A89">
+				</form>
+
+			</div>
+
+			<div class="vslynk-container-graph">
+
+				<nav id="visualynk-taxonomy" class="vslynk-taxo-nav">
+				</nav>
+				<div id="visualynk-graph" class="vslynk-div-graph">
+				</div>
+			</div>
+            <div id="visualynk-query" class="vslynk-container-query">
+                </div>
+                <div id="visualynk-results" class="vslynk-container-results">
+                </div>
+		</section>
+		<!-- Jquery is only used in visualynk.js to send ajax POST request on Neo4j REST API -->
+		<script src="js/jquery-2.1.0.min.js" charset="utf-8"></script>
+		<script src="js/d3.v3.min.js" charset="utf-8"></script>
+		<script src="js/dataVis.min.js" charset="utf-8"></script>
+        <script src="js/VisualData_Graph.js" charset="utf-8"></script>
+	</body>
+    </html>
+</div>
+
